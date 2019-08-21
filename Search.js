@@ -33,3 +33,7 @@ $.ajax({type: "POST",
     error: function (msg) {console.log("Error : ");console.log(msg);}
 });
 }
+search("ISSE");
+search("COMP");
+search("UNIB");
+search("MATH");
