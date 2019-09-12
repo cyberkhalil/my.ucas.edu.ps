@@ -37,3 +37,4 @@ search("ISSE");
 search("COMP");
 search("UNIB");
 search("MATH");
+search("PHYS");
