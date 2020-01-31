@@ -1,12 +1,12 @@
 function search(SEARCH){
     const d = new Date();
     let smtr_no;
-    if(d.getMonth()=>9){
+    if(d.getMonth()>8){
         smtr_no = d.getFullYear()+"2";
-        }else if(d.getMonth()=>6){
-        smtr_no = (d.getFullYear())+"3";
+        }else if(d.getMonth()>5){
+        smtr_no = d.getFullYear()+"3";
         }else{
-        smtr_no = (d.getFullYear())+"1";
+        smtr_no = d.getFullYear()+"1";
         }
 $.ajax({type: "POST",
        url: "/WebService.asmx/GET_SUBJECT",
