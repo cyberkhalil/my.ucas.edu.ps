@@ -20,7 +20,7 @@ $.ajax({type: "POST",
                let course = courses[i];
                 $.ajax({type: "POST",
                    url: "/WebService.asmx/Load_Subject_Branches",
-                   data: "{SMTRNO:"+20191+",SUBNO:"+course.SUB_NO+"}",
+                   data: "{SMTRNO:"+smtr_no+",SUBNO:"+course.SUB_NO+"}",
                    contentType: "application/json; charset=utf-8",
                    dataType: "json",
                    success: function (response2) {
