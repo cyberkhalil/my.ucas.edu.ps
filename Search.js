@@ -1,7 +1,7 @@
 function search(SEARCH){
     const d = new Date();
     let smtr_no;
-    if(d.getMonth()>8){
+    if(d.getMonth()>=8){
         smtr_no = d.getFullYear()+"1";
         }else if(d.getMonth()>5){
         smtr_no = d.getFullYear()+"3";
